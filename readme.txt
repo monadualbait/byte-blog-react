@@ -1,5 +1,5 @@
-The Byte Blog is a fun project that I am working on and constantly adding new features as I am expermenting with react
+The Byte Blog is a fun project that I am working on
 
-Tech Stack 💻
+## Tech Stack 💻
 React 
 Firebase Authentication
