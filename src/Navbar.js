@@ -1,17 +1,20 @@
 import { Link } from "react-router-dom";
+import logo from "./assets/images/logo.png"
 const Navbar = () => {
     return ( 
         <nav className="navbar">
         <div className="logo">
          <Link to="/">
-         <img src="https://i.imgur.com/8AWfkbg.png" alt="logo" />
+         <img src={logo} alt="logo" />
          </Link>
         </div>
-          <Link to="/"><h1>The Byte Blog</h1></Link>
+          <Link id="blog-title" to="/"><h1>The Byte Blog</h1></Link>
           
         <div className="links">
           <Link to="/"><p>Home</p></Link>
-          <Link to="/create">New Blog</Link>
+          <Link to="/authors"><p>Authors</p></Link>
+          <Link to="/login">Login</Link>
+          <Link to="/signup">Get Started</Link>
         </div>
       </nav>
      );
